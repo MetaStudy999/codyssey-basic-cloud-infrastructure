@@ -47,3 +47,27 @@ flowchart TD
 <ins>실제 코드 개발·실행·학습자 숙달은 아직 미실시입니다.</ins> 이전 Round의 코드·PASS는 참고만 하며 신규 미션 증빙으로 사용하지 않습니다.
 
 [중앙 학습 표준](https://github.com/MetaStudy999/codyssey-basic/blob/main/standards/LEARNER-CENTERED-AI-LEARNING-STANDARD.md) · [미션 학습계획](LEARNING-SYSTEM-PLAN.md) · [00단계 README](README.md).
+
+## 5. 한글·영어·공식 약어와 설명·재현 확인
+
+**처음 등장:** 한글명(English Full Name, 공식 약어). 널리 쓰이는 약어가 **없으면 임의로 만들지 않습니다.**
+
+| 한글명 | 영어 원명 | 공식·통용 약어 | 입문자를 위한 한 줄 설명 |
+|---|---|---|---|
+| **도메인 이름 시스템** | Domain Name System | DNS | 이름을 주소 등 리소스 기록에 연결 |
+| **하이퍼텍스트 전송 규약** | Hypertext Transfer Protocol | HTTP | 웹 요청과 응답 규약 |
+| **ID·접근 관리** | Identity and Access Management | IAM | 누가 무엇을 할 수 있는지 권한 관리 |
+| **배포** | Deployment | 없음 | 프로그램을 사용 가능한 환경에 게시 |
+
+**자기 설명(Explain):** 도메인 이름 시스템(Domain Name System, DNS)은 읽기 쉬운 도메인 이름을 목적지 정보에 연결하도록 돕습니다.
+
+**종이 재현(Reconstruct, 실행 전 예상)**
+1. 이용자가 웹 도메인을 입력하는 상황 가정.
+2. DNS 질의로 연결 기록을 찾음.
+3. 브라우저가 목적지로 연결을 시도함.
+
+**오류·오해 예방:** DNS 레코드를 설정한 것만으로 앱 실행·HTTP 연결·서비스 배포가 완료되는 것은 아닙니다.
+
+**확인 질문:** 책을 덮고 핵심 용어를 자기 말로 말할 수 있는가? 위 입력→처리→예상 결과를 종이에 다시 그릴 수 있는가?
+
+**판정 주의:** 종이 재현과 기대 결과는 교육용이고, 코드 구현·실행·학습자의 독립 숙달 L4~L5는 아직 NOT_VERIFIED 또는 NOT_STARTED입니다. [00단계 시작으로 돌아가기](README.md).
